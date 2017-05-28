@@ -11,9 +11,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+textile_ext: "textile,txtl,tl"
 gems:
   - jekyll-feed
+  - jekyll-textile-converter
 exclude:
   - Gemfile
   - Gemfile.lock
